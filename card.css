@@ -1,0 +1,83 @@
+.card-player{
+    display: none;
+    box-shadow: #64646f33 0px 7px 29px 0px; 
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card-player .topo{
+    padding: 30px 40px 0;
+}
+.card-player .nome{
+    margin-bottom: 5px;
+}
+.card-player .tipo{
+    font-size: 12px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: #64646f33 0px 7px 29px 0px; 
+}
+.card-player .detalhes{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-player .card-imagem{
+    width: 350px;
+    height: 350px;
+    transition: ease;
+}
+.card-player img {
+    max-height: 100%;
+}
+.card-player .card-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-right-radius: 10px;
+}
+.card-player .card-info h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+.card-player .card-info .status, .card-player .card-info .Habilidade{
+    padding: 0 10px;
+    width: 180px;
+}
+.card-player .card-info .Habilidade ul li, .status ul li{
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.card-player.open{
+    display: block;
+}
+
+.curry{
+    background-color: #e0d387;
+}
+
+.lebron{
+    background-color: #8632ad;
+}
+
+.giannis{
+    background-color: #2c793f;
+}
+
+.kyrie{
+    background-color: #3a3737;
+}
+
+.luka{
+    background-color: #4373cc;
+}
+.lamelo{
+    background-color: #f16856;
+}

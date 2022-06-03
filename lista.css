@@ -1,0 +1,31 @@
+.lista{
+    max-width: 200px;
+}
+.lista .jogador{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    background-color: #6B727A;
+    color: white;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: #64646f33 0px 7px 29px 0px; 
+    transition: 0.15s ease-in-out;
+}
+.lista .jogador:hover{
+    transform: scale(1.05);
+}
+.lista .jogador img {
+    width: 50%;
+    border-radius: 50%;
+}
+.lista .jogador span{
+    padding-right: 20px;
+}
+.lista .jogador.ativo{
+    background-color: #5135ca;
+}

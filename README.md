@@ -1,0 +1,1 @@
+site responsivo sobre meus jogadores favoritos atualmente na NBA. irá mostrar alguns jogadores da nba, quando você clicar sobre o ícone do jogador, irá abrir um cartão com uma lista de fotos dele, ou nome, algumas informações e habilidades dele.
