@@ -1,1 +1,1 @@
-site responsivo sobre meus jogadores favoritos atualmente na NBA. irá mostrar alguns jogadores da nba, quando você clicar sobre o ícone do jogador, irá abrir um cartão com uma lista de fotos dele, ou nome, algumas informações e habilidades dele.
+No script criei uma função, aonde adicionei um evento que ao clicar ele vai substituir uma informação gravada em uma váriavel aonde usei o queryselector para selecionar uma classe que está informações de um jogador, e ao clicar ela vai trocar essa classe para outro jogador que ouve o click.
